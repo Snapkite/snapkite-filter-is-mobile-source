@@ -1,3 +1,5 @@
+var CONFIG = require('./config.json');
+
 function isiPhone(tweet) {
   return /iPhone/i.test(tweet.source);
 };
